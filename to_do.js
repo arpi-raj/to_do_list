@@ -12,7 +12,7 @@ function list3Push() {
   const name = inputElement.value;
   const dueDate = dueDateElement.value;
   const [year, month, day] = dueDate.split("-").map(Number);
-  const add = year + month + day;
+  const add = year * 365 + month * 30 + day;
   list3.push({ name, dueDate, add });
   console.log(list3);
   //console.log(typeof add);
