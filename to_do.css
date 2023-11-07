@@ -1,0 +1,42 @@
+.listInput {
+  display: inline;
+}
+body {
+  font-family: Arial;
+}
+
+.grid,
+.gridOuter {
+  display: grid;
+  grid-template-columns: 200px 100px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  height: 0px;
+  align-items: center;
+}
+
+.logs3 {
+  height: 40px;
+}
+
+.gridOuter {
+  align-items: stretch;
+  margin-bottom: 10px;
+  height: 35px;
+}
+
+.add1 {
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.delete {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: darkred;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
